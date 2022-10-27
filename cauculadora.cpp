@@ -14,10 +14,10 @@ int main()
 	printf("\n----------------*cauculadora*-----------------\n");
 	printf("----------------------------------------------\n");
 	
-	printf("digite um número: ");
+	printf("digite um nÃºmero: ");
 	scanf ("%d",&n1);
 	
-    printf("digite um número: ");
+    printf("digite um nÃºmero: ");
     scanf ("%d",&n2);
     
     soma = n1 + n2;
