@@ -5,8 +5,8 @@
 int main()
 
 {
-	int n1, n2, soma, subt, mult ;
-	float div;
+	float n1, n2, soma, subt, mult, divi;
+	
 	
 	setlocale (LC_ALL, "Portuguese");
 	{
@@ -15,20 +15,20 @@ int main()
 	printf("----------------------------------------------\n");
 	
 	printf("digite um número: ");
-	scanf ("%d",&n1);
+	scanf ("%f",&n1);
 	
     printf("digite um número: ");
-    scanf ("%d",&n2);
+    scanf ("%f",&n2);
     
     soma = n1 + n2;
 	subt = n1 - n2;
 	mult = n1 * n2;
-	div =  n1 / n2;
+	divi =  n1 / n2;
 	
-	printf("\n%d + %d = %d", n1, n2, soma);
-	printf("\n%d - %d = %d", n1, n2, subt);
-	printf("\n%d * %d = %d", n1, n2, mult);
-	printf("\n%d / %d = %.1f", n1, n2, div);
+	printf("\n%.f + %.f = %.f", n1, n2, soma);
+	printf("\n%.f - %.f = %.f", n1, n2, subt);
+	printf("\n%.f * %.f = %.f", n1, n2, mult);
+	printf("\n%.f / %.f = %.1f", n1, n2, divi);
 	
 	}
 	
